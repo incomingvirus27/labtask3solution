@@ -1,17 +1,24 @@
-*{
+*{    
     box-sizing: border-box;
-    margin: 10px;   
-    
+    margin: 10px;     
 }
-.container{   
+.container{  
+    width: 1000px;
     padding-top: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
 }
- .navigation{
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+}
+ /* .navigation{
     display: flex;    
-    justify-content: space-between;    
+    justify-content: space-around;    
     padding-left: 20px;
-}
+} */
 
 .navigation ul{
    display: flex;  
@@ -22,8 +29,9 @@
     color: black;
 }
 /* image-one*/
-.image-one{
-    width: 100%;   
+#image-one{
+    width: auto-fit; 
+    height: auto;  
 }
 
  h2 {
