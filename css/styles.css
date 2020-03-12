@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;   
+    
+}
+.container{   
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+ .navigation{
+    display: flex;    
+    justify-content: space-between;    
+    padding-left: 20px;
+}
+
+.navigation ul{
+   display: flex;  
+   list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* image-one*/
+.image-one{
+    width: 100%;   
+}
+
+ h2 {
+    font-weight: normal;    
+}
+.about-content{
+    border-bottom: dotted;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* two images */
+.first-set, .second-set{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;   
+}
+.flexed{
+    width: 100%;
+    padding: 20px; 
+    margin: 10px;
+    border-bottom: 1px dotted black;
+}
+.flexed.index{
+    width: 100%;
+    padding: 20px; 
+    margin: 10px;
+    border-bottom: none;
+}
+hr{
+    border-bottom: 1px dotted black;
+}
+.lets-work{
+    padding: 20px;
+}   
+      
+ 
+.footer{
+    background: #000;
+}
+
+footer li{
+    display: inline;    
+}
+footer a{
+    text-decoration: none; 
+    padding-right: 40px;
+    color: white;
+    line-height: 50px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 45px;
+    width: 35%;
+    background: #fff;
+    font-size: 18px;
+}
+/* boxes */
+.empty-one{
+    background: #808080;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-two{
+    background: #ffff00;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-three{
+    background: #20b2aa;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-four{
+    background: #ffa077;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-five{
+    background:  #8b0000;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+
+.empty-six{
+    background: #088000;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-seven{
+    background: #8b008b;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-eight{
+    background: #ffc0cb;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-nine{
+    background: #0000ff;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.empty-ten{
+    background: #1e90ff;
+    height: 80px;
+    width: 100px; 
+    position: relative; 
+}
+.boxes-paragraph{
+    position: absolute;
+    padding-left: 27px; 
+    padding-top: 10px;   
+    text-align: center;
+    color: #fff;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexedtwo{
+    width: 100%;
+    padding: 20px; 
+    margin: 10px;    
+}
+
+
+
+
+
