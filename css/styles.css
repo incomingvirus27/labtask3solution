@@ -1,24 +1,18 @@
-*{    
+*{
     box-sizing: border-box;
-    margin: 10px;     
+    margin: 10px;   
+    
 }
 .container{  
-    width: 1000px;
-    padding-top: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     
+    width: 960px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    margin: auto;
 }
-.navigation{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-
-}
- /* .navigation{
+ .navigation{
     display: flex;    
-    justify-content: space-around;    
+    justify-content: space-between;    
     padding-left: 20px;
-} */
+}
 
 .navigation ul{
    display: flex;  
@@ -29,9 +23,8 @@
     color: black;
 }
 /* image-one*/
-#image-one{
-    width: auto-fit; 
-    height: auto;  
+.image-one{
+    width: 100%;   
 }
 
  h2 {
